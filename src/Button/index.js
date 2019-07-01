@@ -9,6 +9,8 @@ const StyledButton = styled.button`
    border: ${({ border }) => (border ? "1px solid" : "none")}   
    border-color: ${({ borderColor }) => (borderColor ? borderColor : "black")}
    border-radius: 4px;
+   padding-left: 15px;
+   cursor: pointer; 
    color: ${({ textColor }) => textColor || "black"}
    text-decoration: ${({ underline }) => (underline ? "underline" : "none")}
    text-transform: ${({ uppercase }) => (uppercase ? "uppercase" : "none")}
